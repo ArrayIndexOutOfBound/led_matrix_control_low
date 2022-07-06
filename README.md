@@ -18,3 +18,7 @@ Le code principal se trouve dans `examples-api-use`.
 - Mathieu-Pixel.cc est une nouvelle version, pas prête, qui afficherai directement en pixel par pixel avec chacun sa couleur
 
 L'objectif, est qu'avec la dérivation de `text-example.cc`, et une sorte "d'API" en C on puisse modifier l'affichage avec une interface web et un code en Python [se situant ici](https://github.com/ArrayIndexOutOfBound/led_matrix_control_high)
+
+# Dépendances
+
+! S'il y a un manque de dépandance !
