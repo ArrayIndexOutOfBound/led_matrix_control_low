@@ -10,15 +10,19 @@ Il faut de se fait, que la raspberry possède un HAT et qu'elle soit relié aux 
 - https://cdn-shop.adafruit.com/970x728/2345-12.jpg
 
 Ce code fonctionne à été testé sur :
-- Raspberry PI 3 B+
-- Raspberry PI 4 B+
+- Raspberry PI 3 B+, Raspberry OS
+- Raspberry PI 4 B+, Raspberry OS
+- Raspberry PI 4 B+, Ubuntu Server
 
 Le code principal se trouve dans `examples-api-use`.
-- Mathieu-Panel.cc est la première version du code, affichant un `string` de X caractères avec un couleur défini
+- Mathieu-Panel.cc est la première version du code, affichant un `string` de X (4 par panneaux) caractères avec une couleur défini
 - Mathieu-Pixel.cc est une nouvelle version, pas prête, qui afficherai directement en pixel par pixel avec chacun sa couleur
 
 L'objectif, est qu'avec la dérivation de `text-example.cc`, et une sorte "d'API" en C on puisse modifier l'affichage avec une interface web et un code en Python [se situant ici](https://github.com/ArrayIndexOutOfBound/led_matrix_control_high)
 
 # Dépendances
-
-! S'il y a un manque de dépandance !
+Depuis une installation fraîche de Raspberry OS :
+- être root
+- git
+- make
+- https://github.com/fcambus/spleen, à placer dans /root/spleen (ou autre dossier mais il faut modifier [ce fichier](https://github.com/ArrayIndexOutOfBound/led_matrix_control_high/blob/main/panel.py#L112)
