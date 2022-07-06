@@ -20,6 +20,11 @@ Le code principal se trouve dans `examples-api-use`.
 
 L'objectif, est qu'avec la dérivation de `text-example.cc`, et une sorte "d'API" en C on puisse modifier l'affichage avec une interface web et un code en Python [se situant ici](https://github.com/ArrayIndexOutOfBound/led_matrix_control_high)
 
+# Les PINs GPIO non utilisées
+RX, TX, 25, MOSI, MISO, SCLK, CE0, CE1, 19
+
+Source : https://cdn-learn.adafruit.com/downloads/pdf/adafruit-rgb-matrix-plus-real-time-clock-hat-for-raspberry-pi.pdf
+
 # Dépendances
 Depuis une installation fraîche de Raspberry OS :
 - Être root
