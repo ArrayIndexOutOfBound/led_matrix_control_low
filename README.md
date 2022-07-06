@@ -22,7 +22,7 @@ L'objectif, est qu'avec la dérivation de `text-example.cc`, et une sorte "d'API
 
 # Dépendances
 Depuis une installation fraîche de Raspberry OS :
-- être root
+- Être root
 - git
 - make
 - https://github.com/fcambus/spleen, à placer dans /root/spleen (ou autre dossier mais il faut modifier [ce fichier](https://github.com/ArrayIndexOutOfBound/led_matrix_control_high/blob/main/panel.py#L112)
