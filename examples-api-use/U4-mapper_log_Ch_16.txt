@@ -1,0 +1,1 @@
+Couldn't load font '/root/spleen/spleen-32x16.bdf'
